@@ -287,15 +287,18 @@ The four faculty clients and their students tried the system on **2 October 2026
 - A Users page for changing roles
 - The AI no longer claims the meeting can end while the button is still locked (0 out of 10 times after the fix)
 
-## 👥 Team
+## 🙋 My Contributions
 
-| Member | Roles | Main work |
-|---|---|---|
-| **Thanaphat Penphaen** ([@thanaphat123](https://github.com/thanaphat123)) **(me)** | Database Engineer, Software Architect, Requirements Manager | Database design, backend design, RAG document search (chunking and embedding into ChromaDB), CAPA form and DOCX/PDF report, AI grading by rubric, teacher tools for scenarios, documents and rubrics |
-| นายอนุพงศ์ เอกวโรดม | Database Engineer, Requirements Manager | Data model, AI Router, client requirements |
-| นายอภิเชษฐ์ มาลัย | Scrum Master, DevOps | Sprint ceremonies, CI on GitHub Actions, full browser testing, mutation testing |
-| นายภัทรพงศ์ ต๊อดแก้ว | Testing Manager, DevOps | Docker Compose environment, AWS deployment, UI fixes, release checks |
+Built by a team of 4 for the Faculty of Pharmacy, Chiang Mai University. My roles were **Database Engineer**, **Software Architect** and **Requirements Manager**. My work included:
 
+- **Database design**: PostgreSQL schema for users, scenarios, meetings, CAPA forms, rubrics and feedback
+- **Backend design**: the router / module / adapter structure
+- **RAG pipeline**: chunking and embedding scenario documents with multilingual-e5-small into ChromaDB, and retrieval so each AI role answers from scenario evidence
+- **AI grading**: scoring finished meetings against the teacher's rubric and giving students feedback
+- **CAPA form and report**: filling in the CAPA form from the meeting and generating the downloadable DOCX/PDF report
+- **Teacher tools**: managing scenarios, evidence documents and rubrics
+
+**Thanaphat Penphaen** · [@thanaphat123](https://github.com/thanaphat123)
 
 ## 🔭 Known Limitations
 
